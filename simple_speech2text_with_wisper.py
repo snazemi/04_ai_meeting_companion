@@ -11,7 +11,7 @@ pipe = pipeline(
 )
 
 # Define the path to the audio file that needs to be transcribed
-sample = 'downloaded_audio.mp3'
+sample = 'testing_speech_to_text.mp3'
 
 # Perform speech recognition on the audio file
 # The `batch_size=8` parameter indicates how many chunks are processed at a time
